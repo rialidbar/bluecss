@@ -1,0 +1,169 @@
+/*common css*/
+body{
+	margin: 0;
+	padding:0;
+	font-family: sans-serif;	
+}
+/*common css end*/
+/*headerstart*/
+header{
+	background-color: #121B2A;
+
+}
+.wrapper{
+	/*border: 1px solid yellow;*/
+	width: 82%;
+	margin: 0 auto;
+	overflow: hidden;
+
+}
+.logo{
+width: 20%;
+    float: left;
+    /*border: 1px solid red;*/
+    padding-top: 10px;
+}
+.logo img{
+width: 100%;
+}
+.menu{
+	width: 70%;
+      float: right;
+    /*border: 1px solid yellow;*/
+}
+.menu ul{
+	list-style: none;
+	float: right;
+}
+.client{
+	margin-top: 0;
+}
+.client li {
+	float: left;
+	text-decoration: none;
+
+}
+.employee li{
+float: left;
+
+
+}
+.employee li a{
+
+	text-decoration: none;
+    padding: 0 20px;
+    color: white;
+    display: inline-block;
+}
+.employee li a:hover{
+	color:#0078BD;
+}
+.employee li:last-child a{
+	padding-right: 0;
+}
+.employee li:first-child a{
+	color:blue;
+}
+
+/*header end*/
+/*banner start*/
+.banner{
+	background-color: #3A556A;
+
+}
+.b-container{
+
+}
+.b-container h1{
+	color:#0078C5;
+	font-size: 44px;
+	margin: 0;
+    padding-top: 200px;
+
+}
+.b-container h1 span{
+	color: white;
+    font-weight: normal;
+
+}
+.b-container p{
+	color: white;
+	letter-spacing: 1px;
+    line-height: 1.7;
+    margin-top: 0;
+
+}
+.b-image{
+	overflow: hidden;
+    width: 20.1%;
+    /*border: 1px solid red;*/
+    margin-top: 28px;
+    margin-bottom: 81px;
+
+}
+.b-image a:hover{
+color: red;
+}
+.b-image a img{
+	width: 100%;
+    margin-top: 3px;
+
+}
+
+/*banner end*/
+/*service start*/
+.service{
+	background-color: #121B2C;
+
+}
+.s-wrapper{
+
+}
+.single{
+	overflow: hidden;
+    width: 30%;
+    /*border: 1px solid red;*/
+    float: left;
+    margin-right: 34px;
+    padding-right: 12px
+
+}
+.st{
+
+}
+.nd{
+
+}
+.rd{
+
+}
+.single:last-child{
+	margin-right: 0;
+	float: right;
+	padding-right: 0;
+}
+.s-image{
+	padding-top: 63px;
+
+}
+.s-image img{
+	width: 100%;
+
+}
+.s-text{
+
+}
+.s-text p{
+	color: white;
+    line-height: 1.7;
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-top: 0;
+    padding-top: 10px;
+    padding-bottom: 42px;
+
+}
+
+
+
+/*service end*/
